@@ -1,0 +1,210 @@
+2020-03-17 15:20:50,905 - [test_interface.py-->line:95] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:20:51,035 - [test_interface.py-->line:95] - INFO: 用例：不填接口名，执行未通过
+2020-03-17 15:20:51,137 - [test_interface.py-->line:95] - INFO: 用例：接口名已存在，执行未通过
+2020-03-17 15:20:51,394 - [test_login.py-->line:53] - INFO: 用例：登录成功，执行未通过
+2020-03-17 15:20:51,490 - [test_login.py-->line:53] - INFO: 用例：账号为空，执行未通过
+2020-03-17 15:20:51,592 - [test_login.py-->line:53] - INFO: 用例：密码为空，执行未通过
+2020-03-17 15:20:51,822 - [test_login.py-->line:53] - INFO: 用例：账号未注册，执行未通过
+2020-03-17 15:20:52,305 - [test_projects.py-->line:83] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:20:52,483 - [test_projects.py-->line:83] - INFO: 用例：不填项目名，执行未通过
+2020-03-17 15:20:52,671 - [test_projects.py-->line:83] - INFO: 用例：项目名已存在，执行未通过
+2020-03-17 15:20:52,748 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:20:53,017 - [test_register.py-->line:59] - INFO: 用例：注册成功，执行未通过
+2020-03-17 15:20:53,094 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:20:53,217 - [test_register.py-->line:59] - INFO: 用例：不输入用户名，执行未通过
+2020-03-17 15:20:53,292 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:20:53,403 - [test_register.py-->line:59] - INFO: 用例：不输入邮箱，执行未通过
+2020-03-17 15:20:53,480 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:20:53,590 - [test_register.py-->line:59] - INFO: 用例：两次密码不一致，执行未通过
+2020-03-17 15:20:54,088 - [test_testcase.py-->line:110] - INFO: 用例：不填用例名，执行未通过
+2020-03-17 15:20:54,203 - [test_testcase.py-->line:105] - ERROR: 用例：用例名已存在，执行未通过
+2020-03-17 15:20:54,203 - [test_testcase.py-->line:106] - ERROR: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 10, 'name': '百度新闻548072--百度新闻548072_测试接口--成功', 'interface': {'name': '百度新闻548072_测试接口', 'project': '百度新闻548072'}, 'author': 'zhang'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 102, in test_testcase
+    self.assert_dict_item(expected, res)
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 121, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 10, 'name': '百度新闻548072--百度新闻548072_测试接口--成功', 'interface': {'name': '百度新闻548072_测试接口', 'project': '百度新闻548072'}, 'author': 'zhang'}
+2020-03-17 15:23:51,958 - [test_interface.py-->line:95] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:23:52,103 - [test_interface.py-->line:95] - INFO: 用例：不填接口名，执行未通过
+2020-03-17 15:23:52,218 - [test_interface.py-->line:95] - INFO: 用例：接口名已存在，执行未通过
+2020-03-17 15:23:52,509 - [test_login.py-->line:53] - INFO: 用例：登录成功，执行未通过
+2020-03-17 15:23:52,621 - [test_login.py-->line:53] - INFO: 用例：账号为空，执行未通过
+2020-03-17 15:23:52,734 - [test_login.py-->line:53] - INFO: 用例：密码为空，执行未通过
+2020-03-17 15:23:52,948 - [test_login.py-->line:53] - INFO: 用例：账号未注册，执行未通过
+2020-03-17 15:23:53,410 - [test_projects.py-->line:83] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:23:53,586 - [test_projects.py-->line:83] - INFO: 用例：不填项目名，执行未通过
+2020-03-17 15:23:53,762 - [test_projects.py-->line:83] - INFO: 用例：项目名已存在，执行未通过
+2020-03-17 15:23:53,823 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:23:54,101 - [test_register.py-->line:59] - INFO: 用例：注册成功，执行未通过
+2020-03-17 15:23:54,163 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:23:54,264 - [test_register.py-->line:59] - INFO: 用例：不输入用户名，执行未通过
+2020-03-17 15:23:54,325 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:23:54,429 - [test_register.py-->line:59] - INFO: 用例：不输入邮箱，执行未通过
+2020-03-17 15:23:54,490 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:23:54,590 - [test_register.py-->line:59] - INFO: 用例：两次密码不一致，执行未通过
+2020-03-17 15:23:55,068 - [test_testcase.py-->line:110] - INFO: 用例：不填用例名，执行未通过
+2020-03-17 15:23:55,190 - [test_testcase.py-->line:105] - ERROR: 用例：用例名已存在，执行未通过
+2020-03-17 15:23:55,190 - [test_testcase.py-->line:106] - ERROR: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 11, 'name': '新闻APP472220_测试接口--成功', 'interface': {'name': '新闻APP472220_测试接口', 'project': '新闻APP472220'}, 'author': 'zhang'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 102, in test_testcase
+    self.assert_dict_item(expected, res)
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 121, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 11, 'name': '新闻APP472220_测试接口--成功', 'interface': {'name': '新闻APP472220_测试接口', 'project': '新闻APP472220'}, 'author': 'zhang'}
+2020-03-17 15:25:32,190 - [test_interface.py-->line:95] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:25:32,310 - [test_interface.py-->line:95] - INFO: 用例：不填接口名，执行未通过
+2020-03-17 15:25:32,415 - [test_interface.py-->line:95] - INFO: 用例：接口名已存在，执行未通过
+2020-03-17 15:25:32,709 - [test_login.py-->line:53] - INFO: 用例：登录成功，执行未通过
+2020-03-17 15:25:32,808 - [test_login.py-->line:53] - INFO: 用例：账号为空，执行未通过
+2020-03-17 15:25:32,907 - [test_login.py-->line:53] - INFO: 用例：密码为空，执行未通过
+2020-03-17 15:25:33,171 - [test_login.py-->line:53] - INFO: 用例：账号未注册，执行未通过
+2020-03-17 15:25:33,615 - [test_projects.py-->line:83] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:25:33,782 - [test_projects.py-->line:83] - INFO: 用例：不填项目名，执行未通过
+2020-03-17 15:25:33,946 - [test_projects.py-->line:83] - INFO: 用例：项目名已存在，执行未通过
+2020-03-17 15:25:34,022 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:25:34,295 - [test_register.py-->line:59] - INFO: 用例：注册成功，执行未通过
+2020-03-17 15:25:34,370 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:25:34,477 - [test_register.py-->line:59] - INFO: 用例：不输入用户名，执行未通过
+2020-03-17 15:25:34,552 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:25:34,659 - [test_register.py-->line:59] - INFO: 用例：不输入邮箱，执行未通过
+2020-03-17 15:25:34,735 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:25:34,843 - [test_register.py-->line:59] - INFO: 用例：两次密码不一致，执行未通过
+2020-03-17 15:25:35,317 - [test_testcase.py-->line:110] - INFO: 用例：不填用例名，执行未通过
+2020-03-17 15:25:35,434 - [test_testcase.py-->line:105] - ERROR: 用例：用例名已存在，执行未通过
+2020-03-17 15:25:35,434 - [test_testcase.py-->line:106] - ERROR: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 12, 'name': '前程贷707683_测试接口--成功', 'interface': {'name': '前程贷707683_测试接口', 'project': '前程贷707683'}, 'author': 'zhang'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 102, in test_testcase
+    self.assert_dict_item(expected, res)
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 121, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 12, 'name': '前程贷707683_测试接口--成功', 'interface': {'name': '前程贷707683_测试接口', 'project': '前程贷707683'}, 'author': 'zhang'}
+2020-03-17 15:27:04,614 - [test_interface.py-->line:95] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:27:04,729 - [test_interface.py-->line:95] - INFO: 用例：不填接口名，执行未通过
+2020-03-17 15:27:04,838 - [test_interface.py-->line:95] - INFO: 用例：接口名已存在，执行未通过
+2020-03-17 15:27:05,096 - [test_login.py-->line:53] - INFO: 用例：登录成功，执行未通过
+2020-03-17 15:27:05,195 - [test_login.py-->line:53] - INFO: 用例：账号为空，执行未通过
+2020-03-17 15:27:05,295 - [test_login.py-->line:53] - INFO: 用例：密码为空，执行未通过
+2020-03-17 15:27:05,519 - [test_login.py-->line:53] - INFO: 用例：账号未注册，执行未通过
+2020-03-17 15:27:05,987 - [test_projects.py-->line:83] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:27:06,152 - [test_projects.py-->line:83] - INFO: 用例：不填项目名，执行未通过
+2020-03-17 15:27:06,316 - [test_projects.py-->line:83] - INFO: 用例：项目名已存在，执行未通过
+2020-03-17 15:27:06,380 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:27:06,651 - [test_register.py-->line:59] - INFO: 用例：注册成功，执行未通过
+2020-03-17 15:27:06,716 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:27:06,834 - [test_register.py-->line:59] - INFO: 用例：不输入用户名，执行未通过
+2020-03-17 15:27:06,897 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:27:06,995 - [test_register.py-->line:59] - INFO: 用例：不输入邮箱，执行未通过
+2020-03-17 15:27:07,058 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:27:07,159 - [test_register.py-->line:59] - INFO: 用例：两次密码不一致，执行未通过
+2020-03-17 15:27:07,645 - [test_testcase.py-->line:110] - INFO: 用例：不填用例名，执行未通过
+2020-03-17 15:27:07,757 - [test_testcase.py-->line:105] - ERROR: 用例：用例名已存在，执行未通过
+2020-03-17 15:27:07,757 - [test_testcase.py-->line:106] - ERROR: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 13, 'name': '开心贷417776_测试接口--成功', 'interface': {'name': '开心贷417776_测试接口', 'project': '开心贷417776'}, 'author': 'zhang'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 102, in test_testcase
+    self.assert_dict_item(expected, res)
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 121, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 13, 'name': '开心贷417776_测试接口--成功', 'interface': {'name': '开心贷417776_测试接口', 'project': '开心贷417776'}, 'author': 'zhang'}
+2020-03-17 15:28:05,794 - [test_interface.py-->line:95] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:28:05,920 - [test_interface.py-->line:95] - INFO: 用例：不填接口名，执行未通过
+2020-03-17 15:28:06,032 - [test_interface.py-->line:95] - INFO: 用例：接口名已存在，执行未通过
+2020-03-17 15:28:06,313 - [test_login.py-->line:53] - INFO: 用例：登录成功，执行未通过
+2020-03-17 15:28:06,442 - [test_login.py-->line:53] - INFO: 用例：账号为空，执行未通过
+2020-03-17 15:28:06,604 - [test_login.py-->line:53] - INFO: 用例：密码为空，执行未通过
+2020-03-17 15:28:06,839 - [test_login.py-->line:53] - INFO: 用例：账号未注册，执行未通过
+2020-03-17 15:28:07,254 - [test_projects.py-->line:83] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:28:07,416 - [test_projects.py-->line:83] - INFO: 用例：不填项目名，执行未通过
+2020-03-17 15:28:07,589 - [test_projects.py-->line:83] - INFO: 用例：项目名已存在，执行未通过
+2020-03-17 15:28:07,664 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:28:07,934 - [test_register.py-->line:59] - INFO: 用例：注册成功，执行未通过
+2020-03-17 15:28:08,009 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:28:08,126 - [test_register.py-->line:59] - INFO: 用例：不输入用户名，执行未通过
+2020-03-17 15:28:08,202 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:28:08,302 - [test_register.py-->line:59] - INFO: 用例：不输入邮箱，执行未通过
+2020-03-17 15:28:08,376 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:28:08,487 - [test_register.py-->line:59] - INFO: 用例：两次密码不一致，执行未通过
+2020-03-17 15:28:08,965 - [test_testcase.py-->line:110] - INFO: 用例：不填用例名，执行未通过
+2020-03-17 15:28:09,095 - [test_testcase.py-->line:105] - ERROR: 用例：用例名已存在，执行未通过
+2020-03-17 15:28:09,095 - [test_testcase.py-->line:106] - ERROR: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 14, 'name': '新闻APP565436_测试接口--成功', 'interface': {'name': '新闻APP565436_测试接口', 'project': '新闻APP565436'}, 'author': 'zhang'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 102, in test_testcase
+    self.assert_dict_item(expected, res)
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 121, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 14, 'name': '新闻APP565436_测试接口--成功', 'interface': {'name': '新闻APP565436_测试接口', 'project': '新闻APP565436'}, 'author': 'zhang'}
+2020-03-17 15:29:09,005 - [test_interface.py-->line:95] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:29:09,121 - [test_interface.py-->line:95] - INFO: 用例：不填接口名，执行未通过
+2020-03-17 15:29:09,250 - [test_interface.py-->line:95] - INFO: 用例：接口名已存在，执行未通过
+2020-03-17 15:29:09,499 - [test_login.py-->line:53] - INFO: 用例：登录成功，执行未通过
+2020-03-17 15:29:09,594 - [test_login.py-->line:53] - INFO: 用例：账号为空，执行未通过
+2020-03-17 15:29:09,688 - [test_login.py-->line:53] - INFO: 用例：密码为空，执行未通过
+2020-03-17 15:29:09,916 - [test_login.py-->line:53] - INFO: 用例：账号未注册，执行未通过
+2020-03-17 15:29:10,372 - [test_projects.py-->line:83] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:29:10,542 - [test_projects.py-->line:83] - INFO: 用例：不填项目名，执行未通过
+2020-03-17 15:29:10,714 - [test_projects.py-->line:83] - INFO: 用例：项目名已存在，执行未通过
+2020-03-17 15:29:10,779 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:29:11,029 - [test_register.py-->line:59] - INFO: 用例：注册成功，执行未通过
+2020-03-17 15:29:11,095 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:29:11,209 - [test_register.py-->line:59] - INFO: 用例：不输入用户名，执行未通过
+2020-03-17 15:29:11,273 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:29:11,370 - [test_register.py-->line:59] - INFO: 用例：不输入邮箱，执行未通过
+2020-03-17 15:29:11,434 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:29:11,538 - [test_register.py-->line:59] - INFO: 用例：两次密码不一致，执行未通过
+2020-03-17 15:29:12,026 - [test_testcase.py-->line:110] - INFO: 用例：不填用例名，执行未通过
+2020-03-17 15:29:12,144 - [test_testcase.py-->line:105] - ERROR: 用例：用例名已存在，执行未通过
+2020-03-17 15:29:12,144 - [test_testcase.py-->line:106] - ERROR: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 15, 'name': '开心贷474864_测试接口--成功', 'interface': {'name': '开心贷474864_测试接口', 'project': '开心贷474864'}, 'author': 'zhang'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 102, in test_testcase
+    self.assert_dict_item(expected, res)
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 121, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 15, 'name': '开心贷474864_测试接口--成功', 'interface': {'name': '开心贷474864_测试接口', 'project': '开心贷474864'}, 'author': 'zhang'}
+2020-03-17 15:29:39,023 - [test_interface.py-->line:95] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:29:39,137 - [test_interface.py-->line:95] - INFO: 用例：不填接口名，执行未通过
+2020-03-17 15:29:39,238 - [test_interface.py-->line:95] - INFO: 用例：接口名已存在，执行未通过
+2020-03-17 15:29:39,507 - [test_login.py-->line:53] - INFO: 用例：登录成功，执行未通过
+2020-03-17 15:29:39,611 - [test_login.py-->line:53] - INFO: 用例：账号为空，执行未通过
+2020-03-17 15:29:39,709 - [test_login.py-->line:53] - INFO: 用例：密码为空，执行未通过
+2020-03-17 15:29:39,927 - [test_login.py-->line:53] - INFO: 用例：账号未注册，执行未通过
+2020-03-17 15:29:40,386 - [test_projects.py-->line:83] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:29:40,562 - [test_projects.py-->line:83] - INFO: 用例：不填项目名，执行未通过
+2020-03-17 15:29:40,756 - [test_projects.py-->line:83] - INFO: 用例：项目名已存在，执行未通过
+2020-03-17 15:29:40,831 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:29:41,097 - [test_register.py-->line:59] - INFO: 用例：注册成功，执行未通过
+2020-03-17 15:29:41,171 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:29:41,268 - [test_register.py-->line:59] - INFO: 用例：不输入用户名，执行未通过
+2020-03-17 15:29:41,343 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:29:41,441 - [test_register.py-->line:59] - INFO: 用例：不输入邮箱，执行未通过
+2020-03-17 15:29:41,516 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:29:41,615 - [test_register.py-->line:59] - INFO: 用例：两次密码不一致，执行未通过
+2020-03-17 15:29:42,072 - [test_testcase.py-->line:110] - INFO: 用例：不填用例名，执行未通过
+2020-03-17 15:29:42,184 - [test_testcase.py-->line:105] - ERROR: 用例：用例名已存在，执行未通过
+2020-03-17 15:29:42,184 - [test_testcase.py-->line:106] - ERROR: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 16, 'name': '秋秋240289_测试接口--成功', 'interface': {'name': '秋秋240289_测试接口', 'project': '秋秋240289'}, 'author': 'zhang'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 102, in test_testcase
+    self.assert_dict_item(expected, res)
+  File "C:\project\py26_project\api_test_project02\testcases\test_testcase.py", line 121, in assert_dict_item
+    raise AssertionError("{} items not in {}".format(dic1, dic2))
+AssertionError: {'name': ['具有 用例名称 的 用例信息 已存在。']} items not in {'id': 16, 'name': '秋秋240289_测试接口--成功', 'interface': {'name': '秋秋240289_测试接口', 'project': '秋秋240289'}, 'author': 'zhang'}
+2020-03-17 15:30:16,890 - [test_interface.py-->line:95] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:30:17,019 - [test_interface.py-->line:95] - INFO: 用例：不填接口名，执行未通过
+2020-03-17 15:30:17,126 - [test_interface.py-->line:95] - INFO: 用例：接口名已存在，执行未通过
+2020-03-17 15:30:17,371 - [test_login.py-->line:53] - INFO: 用例：登录成功，执行未通过
+2020-03-17 15:30:17,463 - [test_login.py-->line:53] - INFO: 用例：账号为空，执行未通过
+2020-03-17 15:30:17,568 - [test_login.py-->line:53] - INFO: 用例：密码为空，执行未通过
+2020-03-17 15:30:17,825 - [test_login.py-->line:53] - INFO: 用例：账号未注册，执行未通过
+2020-03-17 15:30:18,268 - [test_projects.py-->line:83] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:30:18,435 - [test_projects.py-->line:83] - INFO: 用例：不填项目名，执行未通过
+2020-03-17 15:30:18,599 - [test_projects.py-->line:83] - INFO: 用例：项目名已存在，执行未通过
+2020-03-17 15:30:18,675 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:30:18,923 - [test_register.py-->line:59] - INFO: 用例：注册成功，执行未通过
+2020-03-17 15:30:18,998 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:30:19,094 - [test_register.py-->line:59] - INFO: 用例：不输入用户名，执行未通过
+2020-03-17 15:30:19,167 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:30:19,264 - [test_register.py-->line:59] - INFO: 用例：不输入邮箱，执行未通过
+2020-03-17 15:30:19,337 - [test_register.py-->line:81] - INFO: 0
+2020-03-17 15:30:19,458 - [test_register.py-->line:59] - INFO: 用例：两次密码不一致，执行未通过
+2020-03-17 15:30:19,954 - [test_testcase.py-->line:110] - INFO: 用例：添加成功，执行未通过
+2020-03-17 15:30:20,057 - [test_testcase.py-->line:110] - INFO: 用例：不填用例名，执行未通过
+2020-03-17 15:30:20,172 - [test_testcase.py-->line:110] - INFO: 用例：用例名已存在，执行未通过
