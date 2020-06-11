@@ -1,0 +1,3 @@
+logger:
+  name: log
+  file: D:\PycharmProjects\test\report\log.txt
